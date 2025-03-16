@@ -12,6 +12,7 @@
 - STCF/SJF shortest time to completion first or shortest job first
 - RR Round Robin divides jobs and switches for each time segment
 - MLFQ Multi-level Feedback Queue
+- Proportional-Share
 
 
 # Chapter 8
