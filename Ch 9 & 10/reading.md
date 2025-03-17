@@ -14,3 +14,10 @@ takes the sched-latency value and divides it by the number of jobs to get the ti
 # Chapter 10
 **MQMS Multi-queue multiprocessor scheduling**
 multiple queues, one per CPU
+
+**Cache coherence** 
+When different CPUs share main memory. If CPU 1 fetches someting from memory and then modifies it. When CPU 2 fetches it it could fetch the old value instead of the new one
+
+**bus snooping** 
+each cache pays attention to memory updates by observing the bus that connects them to main memory. If a CPU sees this it will either invalidate or update its copy.
+
