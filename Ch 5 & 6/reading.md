@@ -28,7 +28,7 @@ when in User mode and needing to access restrincted info you perform a System ca
 # Switching Processes
 **Cooperative Approach** waits for a yeild or illegal action for OS to regain control
 
-**Non-Cooperative Approach** uses a timer interrupt so after a certain amount of thime the interrupt handler in the OS takes control
+**Non-Cooperative Approach** uses a timer interrupt so after a certain amount of thime the interrupt handler in the OS takes controlos
 
 
 
