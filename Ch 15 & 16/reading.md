@@ -15,3 +15,5 @@ base is the start of the address space and bounds is the end
 # Chapter 16
 **stack** physical address = (virtual offset - max segment size) + base
 **Heap** physical address = virual address + base
+
+**Segmentation** having base and bounds for each segment
