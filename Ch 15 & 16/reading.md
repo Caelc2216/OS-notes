@@ -6,6 +6,8 @@ physical address = virtual address + base
 **base and bounds aka dynamic relocation**
 base is the start of the address space and bounds is the end
 
-**Memory management unit MMU** part of processor that helps with address translation
+**Memory management unit MMU** part of processor that helps with address translation, keeps trach of segments
 
 **internal fragmentation** is the space between stack and heap that can be wasted
+
+**External fragmentation** space that is free/on the free list
