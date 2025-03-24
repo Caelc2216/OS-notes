@@ -11,3 +11,7 @@ base is the start of the address space and bounds is the end
 **internal fragmentation** is the space between stack and heap that can be wasted
 
 **External fragmentation** space that is free/on the free list
+
+# Chapter 16
+**stack** physical address = (virtual offset - max segment size) + base
+**Heap** physical address = virual address + base
