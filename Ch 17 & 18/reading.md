@@ -7,7 +7,7 @@
 
 # Chapter 18
 **paging** choping the space into fixed size pieces
-**page table** per process data structure that stires address translastions for each virtual page of the address space
+**page table** per process data structure that stores address translastions for each virtual page of the address space
 
 Virtual Page Number = (Virtual Address & VPN Mask) >> Shift
 Page Table Entry = Page Table Base + (VPN * sizeof(PTE))

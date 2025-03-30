@@ -16,4 +16,5 @@ VM (virtual memory) offers
 malloc() is how you allocate space on the heap
 free() - frees heap memory that is no longer in use
 **dangling pointer** when a program frees up memory before it is finished using it
+
 mmap() creates anonymous memory used for swap space
