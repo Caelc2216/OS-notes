@@ -26,4 +26,12 @@ Pthread_create(a1, a2, a3, a4)
 a1 = address to store info
 a2 = special instructions/permissions
 a3 = code to run/execution pointer
-a4 = name of thread
+a4 = arguments
+
+join() is the same as wait() but for threads
+
+**Condition Variables**
+ex.
+    Butler lock(bathroom)
+        set condition towels = Available;
+        Unlock(bathroom);
