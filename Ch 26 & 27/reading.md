@@ -21,3 +21,9 @@ pthread_join() waits for a particular thread to complete
 
 # Chapter 27
 To protect critical sections you can use locks to ensure only one thread can use the critical section at a time
+
+Pthread_create(a1, a2, a3, a4)
+a1 = address to store info
+a2 = special instructions/permissions
+a3 = code to run/execution pointer
+a4 = name of thread
