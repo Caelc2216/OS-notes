@@ -31,6 +31,6 @@ Identical to RAID-4 but it rotates the parity block for each stripe
 # Chapter 39
 open() is how to open a new file. It returns a file descriptor
 fsync() writes all data not already written to disk
-mv is how to rename a file from the command line
+mv is how to rename a file from the command line. It can also be used to move a file
 stat() or fstat() gives metadata of a file
 chmod is how you can change the permissions of a file
