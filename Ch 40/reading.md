@@ -10,7 +10,7 @@ inode is the low-level name of the file
 **extend** a disk pointer plus a length to read data
 multi-level index
 - direct pointers
-- indirect pointers
+- indirect pointers inode block points to another inode block
 - double indirect pointers
 - triple indirect pointers
 
